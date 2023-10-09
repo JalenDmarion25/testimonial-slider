@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url('/images/pattern-curve.svg');
+    background-image: url('../images/pattern-curve.svg');
     background-repeat: no-repeat;
     background-position: bottom left 0px;
     z-index: 100;
@@ -47,7 +47,7 @@ body{
 	margin: 0 auto;
 	height: 100%;
 	padding: 40px;
-	background-image: url('/images/pattern-bg.svg');
+	background-image: url('../images/pattern-bg.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -58,7 +58,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background-image: url('./images/pattern-quotes.svg');
+	background-image: url('../images/pattern-quotes.svg');
 	background-repeat: no-repeat;
 	background-size: 80px;
 	background-position: top center;
@@ -132,10 +132,10 @@ body{
 	background-size: auto;
 }
 .next::after {
-	background-image: url('/images/icon-next.svg');
+	background-image: url('../images/icon-next.svg');
 }
 .prev::after {
-	background-image: url('/images/icon-prev.svg');
+	background-image: url('../images/icon-prev.svg');
 }
 @media only screen and (min-width: 768px) {
 	.slide {
